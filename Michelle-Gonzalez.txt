@@ -1,0 +1,126 @@
+   https://codepen.io/Kaioken7/pen/XWRdXOW?editors=1100
+    1. What is Semantic HTML? 
+      HTML that gives meaning to the information on the website. It makes it easier for the browser and people to read and understand the code.
+      
+    2. What is HTML used for? 
+     HTML is used as the base for a website. It provides general rules for the layout which is then organized by CSS and Javascript.
+     
+    3. What is an attribute and where do we put it? 
+     An attribute gives specific value to the element. The attribute goes in the opening tag of the element. 
+     
+    4. What is the h1 tag used for? How many times should I use it on a page?
+      The h1 tag is used to identify the most important header/title on the web page. it ahould only be used once.
+     
+    5. Name two tags that have required attributes
+      img and a
+     
+    6. What do we put in the head of our HTML document? 
+      Meta data information for the machine to read. Basically details about the HTML below.
+      
+    7. What is an id? 
+       An attribute that is used to uniquely identify an element from other elements.
+     
+    8. What elements can I add an id to? 
+       Every HTML element can carry the id attribute.
+      
+    9. How many times can I use the same id on a page? 
+        An id can only be used once with the same value. Otherwise the value would no longer be unique.
+        
+    10. What is a class? 
+         A class attribute is used to identify and distinguish between different elements. 
+    
+    11. What elements can I add a class to? 
+        Every HTML attribute can carry a class attribute.
+        
+    12. How many times can I use the same class on a page? 
+        There is no limit to how many times the same class can be used on a page.
+        
+    13. How do I get my link to open in a new tab?
+        <a href="" target="blank"> add the target attribute in the <a> tag followed by the _blank value.
+        
+    14. What is the alt attribute in the image tag used for? 
+        Provides a text description of the image. 
+        
+    15. How do I reference an id?
+        # followed by the id name
+        
+    16. What is the difference between a section and a div?
+        A section is a semantic tag that sections off parts of the web page. A div is a block element has no meaning outside of its class and css. 
+        
+    17. What is CSS used for? 
+        CSS is used to stylize the web page by editing the information in the HTML.
+      
+    18. How to we select an element? Example - every h2 on the page
+        h2{}
+        
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+        An id can only use the same value once while a class can use the same value multiple times. An id might be used on the H1 tag.
+        A class attribute might be used to identify multiple links.
+        
+    20. How do we select classes in CSS?
+        .followedbytheclassname
+        
+    21. How do we select a p element with a single class of “human””?
+        p.human{}
+        
+    22. What is a parent child selector? When would this be useful? 
+        A selector that selects all direct child elements of the parent element.
+        
+    23. How do you select all links within a div with the class of sidebar?
+        
+    24. What is a pseudo selector?
+        A selector that selects elements in certain states. ex. hover
+        
+    25. What do we use the change the spacing between lines?
+        line-height
+        
+    26. What do we use to change the spacing between letters?
+        letter-spacing
+        
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+        text-transform: uppercase;, lowercase;, capitalize;
+        
+    28. How do I add a 1px border around my div that is dotted and black?
+        border: 1px dotted;
+        
+    29. How do I select everything on the page? 
+        *{}
+        
+    30. How do I write a comment in CSS?
+        /**/
+    31. How do I find out what file I am in, when I am using the command line? 
+        pwd
+        
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+        dir
+        
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+      The rm command is used to remove a file. You need to be careul becuase there is no verification question.
+      
+    34. Why should I use version control? 
+        Keeps track o changes especially when working with multiple people. That way everybody isnt editing the same code at the same time.
+    
+    35. How often should I commit to github?
+        Whenever you add a feature or make a change.
+        
+    36. What is the command we would use to push our repo up to github?
+        git push -u origin branch-name  
+        
+    37. Walk me through Lambda's git flow. 
+        fork, clone, branch, add, commit, push, pull request
+
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element?
+       A block element starts a new line, takes up the full width available. An inline element does not change the structure of the content. 
+       
+    2. What happens when an element is positioned absolutely? 
+       The element is not affected by the document flow and sits on its own layer.
+       
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+        display:flex
+      
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+        block elements: h1, p, div  inline elements: img, inlne-block:button
+    5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
+        A box model is margin+border+padding+content. This model allows us to define the spaces inbetween elements. *{} is the padding issue fix or the box model. 
